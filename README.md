@@ -2,7 +2,7 @@
 
 [//]: # (Image Reference)
 
-[img]: ./assets/1.png "SLAM"
+[img]: ./assets/img.png "Pix2Pix GANs"
 
 ![SLAM][img]
 
@@ -16,14 +16,10 @@ In this project, Using Mask R-CNN to image segmentation
 
 1. Clone the repository and navigate to the downloaded folder.
 	```
-		git clone https://github.com/Lynchez/Satellite-Image-Segmentation
-		cd Satellite-Image-Segmentation-master
-	```
-2. Train your model
-	```
-		python satellite.py train --dataset=/path/to/dataset --weights=coco
+		git clone https://github.com/Lynchez/Pix2Pix-GANs
+		cd Pix2Pix-GANs-master
 	```
 2. Test your model
 	```
-		python satellite.py splash --weights=/path/to/weights/file.h5 --image=URL or path to file
+		python TestPix2Pix.py
 	```
