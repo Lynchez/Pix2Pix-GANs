@@ -8,7 +8,7 @@
 
 ## Project Overview
 
-In this project, Using Mask R-CNN to image segmentation
+In this project, Using Pix2Pix GANs for the translate satellite imaga to maps
 
 ## Project Instruction
 
